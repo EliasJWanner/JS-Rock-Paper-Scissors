@@ -56,7 +56,7 @@ function draw(userChoice, computerChoice) {
   computerScore++;
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
-  result_p.innerHTML = `${convertToWord(computerChoice)}${smallCompWord} and ${convertToWord(userChoice)}${smallUserWord} is equal. It's a draw! 🤜🏼 🤛🏼`;
+  result_p.innerHTML = `${convertToWord(computerChoice)}${smallCompWord} and ${convertToWord(userChoice)}${smallUserWord} is equal. It's a draw!! 🤜🏼 🤛🏼`;
   userChoice_div.classList.add('gray-glow')
   setTimeout(() => {
     userChoice_div.classList.remove('gray-glow');
